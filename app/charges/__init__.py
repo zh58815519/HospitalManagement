@@ -1,5 +1,3 @@
-from flask import Blueprint
+from flask_sqlalchemy import SQLAlchemy
 
-charges = Blueprint('charges', __name__)#设定蓝本的名称
-
-from . import views
+db = SQLAlchemy()

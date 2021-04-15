@@ -5,11 +5,8 @@
 
 {% block page_content %}
 <div class="page-header">
-    <h4>登录</h4>
+    <h1>登录</h1>
 </div>
-{% if nodata %}
-<div>查无此人，请联系管理员</div>
-{% endif %}
 <div class="col-md-4">
     {{ wtf.quick_form(form) }}
 </div>
